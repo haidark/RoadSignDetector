@@ -29,7 +29,7 @@ available to streamline the process of training a model. Two demo scripts
 are provided to show the user how to use the model on an image or video.
 In development is code written in C++ using OpenCV (Open Computer Vision)
 libraries to do detection using pre-trained models. More details can be
-found in the report and presentation included in this 'docs' directory.
+found in the report and presentation included in the 'docs' directory.
 
 ******************************************************************
 **************************** Quick Run ***************************
@@ -53,7 +53,7 @@ containing the object of interest (OOI).
         a. Select an image which shows the OOI clearly.
         b. use the sliders for Hue, Saturation, and Value to select
             ranges for each.
-            - NOTE: if HIGH > LOW; the range will invert
+            - NOTE: if LOW > HIGH; the range will invert
     5) Enter a distance threshold for segmentation (typically 5)
     6) Extract blobs from training images by clicking EXTRACT BLOBS
         a. Takes some time; wait for "100% complete"
@@ -63,7 +63,7 @@ containing the object of interest (OOI).
     8) Enter a size for blobs (typically 50x50 pixels)
     9) Enter a cellsize for HoG (typically 2 pixels)
     10) Assemble and save training matrix by clicking ASSEMBLE TRAINING DATA
-    11) Optional: run Hold-one-out Crossvalidation
+    11) Optional: run Hold-one-out Cross-validation
     12) Traing and save model by clicking TRAIN AND SAVE
 
 In the current MATLAB directory, you will see a folder with your model name.
